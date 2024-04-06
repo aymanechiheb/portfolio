@@ -76,10 +76,7 @@ export default function Home() {
         <li><a href="#contact-me" className="text-gray-700 hover:text-teal-600 px-4 py-2 dark:text-white dark:hover:text-teal-600 ">Contact Me</a></li>
       </ul>
       <MdDarkMode onClick={() => setdarkMode(!darkMode)} className='cursor-pointer text-2xl ml-4' />
-      <div>
-       
-        <button className='bg-red-700 text-white px-4 py-2 rounded-md ml-4' onClick={handleDownloadCV}>Download CV</button>
-      </div>
+      
     </nav>
           <section id="about-me" className="bg-white py-16  dark:bg-gray-900">
           <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
@@ -100,6 +97,10 @@ export default function Home() {
         <a href="https://github.com/aymanechiheb" className="text-gray-600 hover:text-black transition duration-300 dark:text-white">
           <AiFillGithub className="w-8 h-8" />
         </a>
+        <div>
+       
+        <button className='bg-teal-500 text-white px-4 py-2 rounded-md ml-4' onClick={handleDownloadCV}>Download CV</button>
+      </div>
       </div>
     </div>
   </div>
